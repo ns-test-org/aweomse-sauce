@@ -25,27 +25,43 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Pulsating Orange Background Animation */
-@keyframes pulsateOrange {
+/* Ultra-Smooth Orange Background Animation */
+@keyframes ultraSmoothOrangeFlow {
   0% {
     background: linear-gradient(135deg, #fed7aa 0%, #fb923c 50%, #ea580c 100%);
+    background-position: 0% 50%;
   }
-  25% {
+  16% {
+    background: linear-gradient(135deg, #fef2e2 0%, #fcd34d 50%, #f59e0b 100%);
+    background-position: 25% 50%;
+  }
+  33% {
     background: linear-gradient(135deg, #ffedd5 0%, #fdba74 50%, #f97316 100%);
+    background-position: 50% 50%;
   }
   50% {
     background: linear-gradient(135deg, #fef3c7 0%, #fbbf24 50%, #f59e0b 100%);
+    background-position: 75% 50%;
   }
-  75% {
+  66% {
+    background: linear-gradient(135deg, #fde68a 0%, #f59e0b 50%, #d97706 100%);
+    background-position: 100% 50%;
+  }
+  83% {
     background: linear-gradient(135deg, #fed7aa 0%, #fb923c 50%, #ea580c 100%);
+    background-position: 75% 50%;
   }
   100% {
-    background: linear-gradient(135deg, #ffedd5 0%, #fdba74 50%, #f97316 100%);
+    background: linear-gradient(135deg, #fed7aa 0%, #fb923c 50%, #ea580c 100%);
+    background-position: 0% 50%;
   }
 }
 
 .pulsating-orange-bg {
-  animation: pulsateOrange 4s ease-in-out infinite;
-  background-size: 400% 400%;
+  animation: ultraSmoothOrangeFlow 8s ease-in-out infinite;
+  background-size: 200% 200%;
+  transition: all 0.3s ease;
 }
+
+
 
