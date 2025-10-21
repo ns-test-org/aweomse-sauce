@@ -80,15 +80,15 @@ export default function Calculator() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-orange-100 to-orange-200 flex items-center justify-center p-4">
+    <div className="min-h-screen bg-gradient-to-br from-blue-100 to-blue-200 flex items-center justify-center p-4">
       <div className="bg-white rounded-2xl shadow-2xl p-6 w-full max-w-sm">
-        <h1 className="text-2xl font-bold text-orange-800 text-center mb-6">
-          Orange Calculator
+        <h1 className="text-2xl font-bold text-blue-800 text-center mb-6">
+          Blue Calculator
         </h1>
         
         {/* Display */}
-        <div className="bg-orange-50 rounded-lg p-4 mb-4 border-2 border-orange-200">
-          <div className="text-right text-3xl font-mono text-orange-900 min-h-[2.5rem] flex items-center justify-end">
+        <div className="bg-blue-50 rounded-lg p-4 mb-4 border-2 border-blue-200">
+          <div className="text-right text-3xl font-mono text-blue-900 min-h-[2.5rem] flex items-center justify-end">
             {display}
           </div>
         </div>
@@ -98,19 +98,19 @@ export default function Calculator() {
           {/* Row 1 */}
           <button
             onClick={clear}
-            className="col-span-2 bg-orange-500 hover:bg-orange-600 text-white font-semibold py-4 px-4 rounded-lg transition-colors duration-200 text-lg"
+            className="col-span-2 bg-blue-500 hover:bg-blue-600 text-white font-semibold py-4 px-4 rounded-lg transition-colors duration-200 text-lg"
           >
             Clear
           </button>
           <button
             onClick={() => inputOperation('÷')}
-            className="bg-orange-400 hover:bg-orange-500 text-white font-semibold py-4 px-4 rounded-lg transition-colors duration-200 text-lg"
+            className="bg-blue-400 hover:bg-blue-500 text-white font-semibold py-4 px-4 rounded-lg transition-colors duration-200 text-lg"
           >
             ÷
           </button>
           <button
             onClick={() => inputOperation('×')}
-            className="bg-orange-400 hover:bg-orange-500 text-white font-semibold py-4 px-4 rounded-lg transition-colors duration-200 text-lg"
+            className="bg-blue-400 hover:bg-blue-500 text-white font-semibold py-4 px-4 rounded-lg transition-colors duration-200 text-lg"
           >
             ×
           </button>
@@ -118,25 +118,25 @@ export default function Calculator() {
           {/* Row 2 */}
           <button
             onClick={() => inputNumber('7')}
-            className="bg-orange-100 hover:bg-orange-200 text-orange-900 font-semibold py-4 px-4 rounded-lg transition-colors duration-200 text-lg"
+            className="bg-blue-100 hover:bg-blue-200 text-blue-900 font-semibold py-4 px-4 rounded-lg transition-colors duration-200 text-lg"
           >
             7
           </button>
           <button
             onClick={() => inputNumber('8')}
-            className="bg-orange-100 hover:bg-orange-200 text-orange-900 font-semibold py-4 px-4 rounded-lg transition-colors duration-200 text-lg"
+            className="bg-blue-100 hover:bg-blue-200 text-blue-900 font-semibold py-4 px-4 rounded-lg transition-colors duration-200 text-lg"
           >
             8
           </button>
           <button
             onClick={() => inputNumber('9')}
-            className="bg-orange-100 hover:bg-orange-200 text-orange-900 font-semibold py-4 px-4 rounded-lg transition-colors duration-200 text-lg"
+            className="bg-blue-100 hover:bg-blue-200 text-blue-900 font-semibold py-4 px-4 rounded-lg transition-colors duration-200 text-lg"
           >
             9
           </button>
           <button
             onClick={() => inputOperation('-')}
-            className="bg-orange-400 hover:bg-orange-500 text-white font-semibold py-4 px-4 rounded-lg transition-colors duration-200 text-lg"
+            className="bg-blue-400 hover:bg-blue-500 text-white font-semibold py-4 px-4 rounded-lg transition-colors duration-200 text-lg"
           >
             -
           </button>
@@ -144,25 +144,25 @@ export default function Calculator() {
           {/* Row 3 */}
           <button
             onClick={() => inputNumber('4')}
-            className="bg-orange-100 hover:bg-orange-200 text-orange-900 font-semibold py-4 px-4 rounded-lg transition-colors duration-200 text-lg"
+            className="bg-blue-100 hover:bg-blue-200 text-blue-900 font-semibold py-4 px-4 rounded-lg transition-colors duration-200 text-lg"
           >
             4
           </button>
           <button
             onClick={() => inputNumber('5')}
-            className="bg-orange-100 hover:bg-orange-200 text-orange-900 font-semibold py-4 px-4 rounded-lg transition-colors duration-200 text-lg"
+            className="bg-blue-100 hover:bg-blue-200 text-blue-900 font-semibold py-4 px-4 rounded-lg transition-colors duration-200 text-lg"
           >
             5
           </button>
           <button
             onClick={() => inputNumber('6')}
-            className="bg-orange-100 hover:bg-orange-200 text-orange-900 font-semibold py-4 px-4 rounded-lg transition-colors duration-200 text-lg"
+            className="bg-blue-100 hover:bg-blue-200 text-blue-900 font-semibold py-4 px-4 rounded-lg transition-colors duration-200 text-lg"
           >
             6
           </button>
           <button
             onClick={() => inputOperation('+')}
-            className="bg-orange-400 hover:bg-orange-500 text-white font-semibold py-4 px-4 rounded-lg transition-colors duration-200 text-lg"
+            className="bg-blue-400 hover:bg-blue-500 text-white font-semibold py-4 px-4 rounded-lg transition-colors duration-200 text-lg"
           >
             +
           </button>
@@ -170,25 +170,25 @@ export default function Calculator() {
           {/* Row 4 */}
           <button
             onClick={() => inputNumber('1')}
-            className="bg-orange-100 hover:bg-orange-200 text-orange-900 font-semibold py-4 px-4 rounded-lg transition-colors duration-200 text-lg"
+            className="bg-blue-100 hover:bg-blue-200 text-blue-900 font-semibold py-4 px-4 rounded-lg transition-colors duration-200 text-lg"
           >
             1
           </button>
           <button
             onClick={() => inputNumber('2')}
-            className="bg-orange-100 hover:bg-orange-200 text-orange-900 font-semibold py-4 px-4 rounded-lg transition-colors duration-200 text-lg"
+            className="bg-blue-100 hover:bg-blue-200 text-blue-900 font-semibold py-4 px-4 rounded-lg transition-colors duration-200 text-lg"
           >
             2
           </button>
           <button
             onClick={() => inputNumber('3')}
-            className="bg-orange-100 hover:bg-orange-200 text-orange-900 font-semibold py-4 px-4 rounded-lg transition-colors duration-200 text-lg"
+            className="bg-blue-100 hover:bg-blue-200 text-blue-900 font-semibold py-4 px-4 rounded-lg transition-colors duration-200 text-lg"
           >
             3
           </button>
           <button
             onClick={performCalculation}
-            className="row-span-2 bg-orange-600 hover:bg-orange-700 text-white font-semibold py-4 px-4 rounded-lg transition-colors duration-200 text-lg"
+            className="row-span-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4 px-4 rounded-lg transition-colors duration-200 text-lg"
           >
             =
           </button>
@@ -196,13 +196,13 @@ export default function Calculator() {
           {/* Row 5 */}
           <button
             onClick={() => inputNumber('0')}
-            className="col-span-2 bg-orange-100 hover:bg-orange-200 text-orange-900 font-semibold py-4 px-4 rounded-lg transition-colors duration-200 text-lg"
+            className="col-span-2 bg-blue-100 hover:bg-blue-200 text-blue-900 font-semibold py-4 px-4 rounded-lg transition-colors duration-200 text-lg"
           >
             0
           </button>
           <button
             onClick={inputDecimal}
-            className="bg-orange-100 hover:bg-orange-200 text-orange-900 font-semibold py-4 px-4 rounded-lg transition-colors duration-200 text-lg"
+            className="bg-blue-100 hover:bg-blue-200 text-blue-900 font-semibold py-4 px-4 rounded-lg transition-colors duration-200 text-lg"
           >
             .
           </button>
@@ -211,4 +211,14 @@ export default function Calculator() {
     </div>
   );
 }
+
+
+
+
+
+
+
+
+
+
 
