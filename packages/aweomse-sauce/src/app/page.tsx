@@ -83,7 +83,7 @@ export default function Calculator() {
     <div className="min-h-screen bg-gradient-to-br from-orange-100 to-orange-200 flex items-center justify-center p-4">
       <div className="bg-white rounded-2xl shadow-2xl p-6 w-full max-w-sm">
         <h1 className="text-2xl font-bold text-orange-800 text-center mb-6">
-          Orange Calculator
+          Coops Calc
         </h1>
         
         {/* Display */}
@@ -211,4 +211,5 @@ export default function Calculator() {
     </div>
   );
 }
+
 
